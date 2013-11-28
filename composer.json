@@ -1,0 +1,19 @@
+{
+    "name": "remo/fetch-service-provider",
+    "type": "library",
+    "description": "Tedivm/Fetch integration for Silex.",
+    "keywords": ["silex", "tedivm", "fetch"],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Remo Laubacher",
+        "email": "remo.laubacher@gmail.com"
+    }
+    ],
+    "require": {
+        "tedivm/fetch": "~0.4"
+    },
+    "autoload": {
+        "psr-0": { "Tedivm\\Fetch": "src" }
+    }
+}
